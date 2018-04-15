@@ -24,8 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/walleye/proprietary/etc/firmware/music_detector.sound_model:system/etc/firmware/music_detector.sound_model \
     vendor/google/walleye/proprietary/etc/permissions/com.android.sdm.plugins.connmo.xml:system/etc/permissions/com.android.sdm.plugins.connmo.xml \
     vendor/google/walleye/proprietary/etc/permissions/com.android.sdm.plugins.sprintdm.xml:system/etc/permissions/com.android.sdm.plugins.sprintdm.xml \
-    vendor/google/walleye/proprietary/etc/permissions/com.android.vzwomatrigger.xml:system/etc/permissions/com.android.vzwomatrigger.xml \
-    vendor/google/walleye/proprietary/etc/permissions/com.google.android.camera.experimental2017.xml:system/etc/permissions/com.google.android.camera.experimental2017.xml \
     vendor/google/walleye/proprietary/etc/permissions/com.verizon.apn.xml:system/etc/permissions/com.verizon.apn.xml \
     vendor/google/walleye/proprietary/etc/permissions/com.verizon.embms.xml:system/etc/permissions/com.verizon.embms.xml \
     vendor/google/walleye/proprietary/etc/permissions/com.verizon.llkagent.xml:system/etc/permissions/com.verizon.llkagent.xml \
@@ -59,7 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/walleye/proprietary/lib64/librcc.so:system/lib64/librcc.so
 
 PRODUCT_PACKAGES += \
-    EaselServicePrebuilt \
+    Tycho \
     VZWAPNLib \
     embms \
     ims \
@@ -83,7 +81,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     VerizonUnifiedSettings \
     cneapiclient \
-    com.google.android.camera.experimental2017 \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
     embmslibrary \
