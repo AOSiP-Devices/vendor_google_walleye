@@ -61,10 +61,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Tycho \
     VZWAPNLib \
-    VZWAPNLib \
     embms \
     ims \
-    vzw_msdc_api \
     vzw_msdc_api \
     CNEService \
     CarrierServices \
